@@ -1,0 +1,18 @@
+.navbar.navbar-inverse.navbar-fixed-top {
+  min-height:41px!important;
+}
+.navbar.navbar-inverse.navbar-fixed-top .navbar-inner {
+  min-height:40px!important;
+}
+.navbar .brand {
+ color:#00b1c0; 
+}
+#person .navbar .brand {
+ color:#0082bf; 
+}
+.navbar .brand.cbits {
+ color:#999999;
+}
+.navbar .brand.cbits:hover {
+ color:#ffffff;
+}
