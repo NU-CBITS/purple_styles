@@ -1,0 +1,58 @@
+/* social_networking index page */
+#widget-tiles .row-fluid > [class*="span"] {
+  margin-bottom:1%;
+}
+#widget-tiles .row-fluid > [class*="span3"] {
+  width:24%;
+  margin-left: 1%;
+}
+#widget-tiles .row-fluid .span6 .row-fluid > [class*="span6"] {
+  width:49%;
+  margin-left: 1%;
+}
+#widget-tiles .widget:hover {
+  cursor:pointer;
+}
+#widget-tiles .widget-content {
+  color:white;
+}
+#widget-tiles .widget {
+  margin-bottom: 1em;
+}
+#widget-tiles .widget-header h3 { 
+  margin-right: 0px;
+}
+#widget-tiles .widget p {
+  margin: 0px;
+}
+.widget-inner-content {
+  position:relative;
+  /*height: 75px;*/
+  height:80px;
+}
+.widget-inner-content [class^="icon-"] {
+  font-size: 65px;
+  line-height: 80px;
+  color:white;
+}
+.widget-inner-content img {
+  position: absolute;
+  top: 0%;
+  left: 18%;
+  height: 70px;
+  width:auto;
+}
+#think-and-feel .widget-inner-content img {
+  position: absolute;
+  top: 0%;
+  left: 35%;
+  height: 70px;
+  width:auto;
+}
+#widget-tiles #road-map, #widget-tiles #do, #widget-tiles #summary {
+  margin-left:0px;
+}
+
+#poll-responses li {
+  list-style-type:none;
+}

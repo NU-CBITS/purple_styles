@@ -1,0 +1,67 @@
+form.inline, div.inline {
+  display:inline-block;
+}
+.text-center {
+  text-align:center;
+}
+.form-condensed label.checkbox {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.form-horizontal .control-label {
+  width: 60px;
+}
+.form-horizontal .controls {
+  margin-left: 80px;
+}
+.form-horizontal .emotion-tags .control-label{
+  width: 100px;
+}
+.form-horizontal .emotion-tags .controls {
+  margin-left: 120px;
+}
+.alert {
+  padding: 8px 14px 8px 14px;
+}
+.label-alert {
+  background-color: #FCF8E3;
+  border: 1px solid #FBEED5;
+}
+.input-tag {
+  margin:5px;
+}
+.input-tag input {
+  margin:0px;
+}
+button i.icon-ok {
+  color:#468847;
+}
+#visualizations-container.widget-content {
+  padding-top:10px;
+}
+#visualizations.btn-toolbar {
+  margin-top:0px;
+}
+#filters-container {
+  position:relative;
+}
+#filters.popover {
+  display:none;
+  width: inherit;
+  position: absolute;
+  margin-top: 0px;
+}
+#filters.popover .arrow {
+  left: 96%;
+}
+#edit-event-form .slider-container {
+  width:95%;
+  display:inline-block;
+  padding:10px;
+}
+#edit-event-form .slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+  width:85%;
+}
+#edit-event-form .intensity-value {
+  padding-right:15px;
+}
