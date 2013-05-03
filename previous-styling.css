@@ -1,0 +1,53 @@
+/* This styling is currenlty not used */
+
+/* It was previously used styling, but may come in handy in the future. */
+
+.admin_dialog {
+  position: fixed;
+  top: 300px;
+  right: 0px;
+  background-color: #520063;
+  color:white;
+  padding:5px;
+  z-index:1000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.admin_dialog .label_and_input {
+  border-radius: 0px!important;
+  padding:3px;
+}
+.admin_dialog .label_and_input + .label_and_input {
+  margin-top: 0px; 
+}
+
+.page-container {padding:2em; margin:2em; max-width:740px; margin-left:auto; margin-right:auto; color:white;}
+.page-container.do {max-width:90%;}
+
+.page-container > h1 {text-transform: uppercase; margin:0;}
+
+.tasks_incomplete{position:absolute; top:5%; left:10%; background-color: white; color:black !important; padding:.25em .5em; border-radius:1em; font-size:1.4em; font-weight:bold; border:1px; border-collapse: none; border-color: black; border-style:solid;}
+.to_do{position:absolute; top:5%; right:10%; font-size:1.4em; color:yellow !important;}
+
+#dialog { text-align: left;}
+
+.page-container > .row-fluid {margin-top:1em;}
+
+.person-comment {margin-bottom:.75em;}
+.person {text-align: center; }
+.person-comment .person {font-weight: bold;}
+.person-comment .comment {margin-top:.75em;}
+.page-container textarea.comment {height:4em;}
+
+.person-large{text-align: center; font-weight:bold; float:left; margin-bottom:.75em; width:140px;}
+.person-large img {width:120px;}
+.person-medium{text-align: center; font-weight:bold; float:left; margin-bottom:.75em; width:100px;}
+.person-medium img {width:80px;}
+
+ #eventscalendar {color: black !important;  width:100%;}
+
+.person-small {text-align: center; font-weight:bold; float:left; margin-bottom:.75em; width:60px;}
+.person-small img {width:50px;}
+.percent {font-size: 1.25em;}

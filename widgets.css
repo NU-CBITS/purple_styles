@@ -8,7 +8,12 @@
   clear:none;
 }
 
-/* widgets */
+/* on learn page - look more like Google mail 'reply' */
+.widget-header h1 { 
+  display: inline-block;
+}
+
+/* general widgets */
 .widget.homepage-widget .widget-content {
   position:relative;
 }
