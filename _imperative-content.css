@@ -1,4 +1,19 @@
-/* blockquotes mood */
+/* blockquotes */
+
+/* The future */
+
+/*blockquote.imperative-content, blockquote.quotes {
+  padding: 8px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  -webkit-box-shadow: inset 20px 0 0 #fbfbfc, inset 21px 0 0 #ececf0;
+    -moz-box-shadow: inset 20px 0 0 #fbfbfc, inset 21px 0 0 #ececf0;
+      box-shadow: inset 20px 0 0 #fbfbfc, inset 21px 0 0 #ececf0;
+}
+blockquote p {
+  margin-left: 25px;
+}*/
+
 blockquote.imperative-content.mood {
   border-left: 5px solid #ae0060;
 }
@@ -20,8 +35,6 @@ blockquote.imperative-content.game {
 blockquote.imperative-content p {
   margin-bottom: 20px;
   font-size: 16px;
-  /* font-weight: 200/300; */
   font-weight: normal;
-  /*font-style: italic;*/
   line-height: 25px
 }
