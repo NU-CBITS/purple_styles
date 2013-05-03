@@ -1,4 +1,4 @@
-/* STREAMING INFO */
+/* streams */
 .stream .item {
   border-bottom: 1px solid #EEE;
   padding: 10px 0px 30px 60px;
@@ -37,4 +37,21 @@
   padding: 0;
   float: right;
   margin-top: 10px;
+}
+
+/* list-items */
+.list-item {
+  margin: 0 0 20px;
+  cursor: hand;
+  cursor: pointer;
+  padding: 5px 5px 5px 15px;
+  background-color: #C6E9E7;
+  color:#57585A;
+}
+
+.list-item p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
 }

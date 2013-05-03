@@ -6,35 +6,42 @@
 @import "../../bootstrap/css/bootstrap-wo-icons.min.css";
 @import "../../bootstrap/css/bootstrap-responsive.min.css";
 @import "../../font_awesome/css/font-awesome.min.css";
+@import "_comments.css";
+@import "_content.css";
+@import "_imperative-content.css";
+@import "_instruction.css";
+
 @import "activity-tracker.css";
-@import "filter-container.css";
+@import "filter-overlay-container.css";
 @import "guide-editor.css";
 @import "guides.css";
 @import "input-group-template.css";
-@import "navbar.css";
+@import "nw-text-colors.css";
+@import "override-bootstrap.css";
 @import "our-full-calendar.css";
 @import "our-tour.css";
 @import "social-networking-home-page-widgets.css";
 @import "stream.css";
 @import "widgets.css";
 
-.text-left {
-  text-align: left;
-}
-.text-right {
-  text-align: right;
-}
-.text-center {
-  text-align: center;
-}
-
 body {
   background-color:#f5f5f5;
+}
+
+/* modals */
+.connect-modal {
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+.connect-modal, .widget.connect-modal  {
+  clear:none;
 }
 
 .select-multiple label {
   margin-bottom:0px;
 }
+
 strong.lead {
   font-weight: bold
 }
@@ -44,66 +51,16 @@ div.list-block {
   margin: 0 0 20px;
   border-left: 5px solid #eeeeee;
 }
+
 /*in assessment maker*/
 .show_container.widget div.instruction {
   font-weight: bold;
-}
-div.instructions{
-  font-size: 12px;
-  font-weight: normal;
-  /*font-style: italic;*/
-  /*border-bottom: 1px solid #6d6e71;*/
-  margin-bottom: 5px;
-  /*border-bottom: 1px solid #eeeeee;*/
-}
-.instructions label {
-  font-style: normal;
-}
-.show_container.widget div.content{
-  font-weight: bold;
-}
-
-/* blockquotes mood */
-blockquote.imperative-content.mood {
-  border-left: 5px solid #ae0060;
-}
-blockquote.imperative-content.play {
-  border-left: 5px solid #55a51a;
-}
-blockquote.polls {
-  border-left: 5px solid #55a51a;
-}
-blockquote.quotes {
-  border-left: 5px solid #55a51a;
-}
-blockquote.content.latest_poll {
-  border-left: 5px solid #55a51a;
-}
-blockquote.imperative-content.game {
-  border-left: 5px solid #55a51a;
-}
-blockquote.imperative-content p {
-  margin-bottom: 20px;
-  font-size: 16px;
-  /* font-weight: 200/300; */
-  font-weight: normal;
-  /*font-style: italic;*/
-  line-height: 25px
-}
-blockquote.user-comment {
-  border-left: 5px solid #dfc2e1;
 }
 
 img.user-image {
   background: #0068AC;
 }
-p.user-comment {
-  color:#520063;
-}
 
-p.user-comment:before {
-  content: '\2014 \00A0';
-}
 
 strong.user-name {
   color:#810262;
@@ -160,39 +117,6 @@ ul#goals {
 ul#goals li div.list-item {
   margin:10px;
 }
-.text-prog-gray {
-  color: #6d6e71;
-}
-.text-prog-purple {
-  color: #520063;
-}
-.text-prog-pink {
-  color: #ae0060;
-}
-.text-prog-green {
-  color: #8ed400;
-}
-.text-prog-blue {
-  color: #00b1c0;
-}
-.text-prof-gray {
-  color: #6d6e71;
-}
-.text-prof-purple {
-  color: #331d54;
-}
-.text-prof-pink {
-  color: #810262;
-}
-.text-prof-green {
-  color: #55a51a;
-}
-.text-prof-blue {
-  color: #0082bf;
-}
-.text-hcc-blue {
-  color:#9bd4f2;
-}
 
 hr.divider-prog-pink {
   border-bottom: 2px solid #ae0060;
@@ -242,22 +166,6 @@ hr.divider-prog-pink {
   background: #fa6801;
   color:white;
 }
-/* list-items */
-.list-item {
-  margin: 0 0 20px;
-  cursor: hand;
-  cursor: pointer;
-  padding: 5px 5px 5px 15px;
-  background-color: #C6E9E7;
-  color:#57585A;
-}
-
-.list-item p {
-  margin-bottom: 0;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 25px;
-}
 
 /* Lesson */
 .lesson-item {
@@ -273,6 +181,7 @@ hr.divider-prog-pink {
 #poll-responses li {
   list-style-type:none;
 }
+
 /* 'former' heading stuff */
 h2 .h2-header {
   font-size: 24px;
@@ -292,6 +201,7 @@ h2 .h2-header {
   padding-right: 5px;
   color:#696969;
 }
+
 .h2-move {
   cursor: move;
 }
@@ -350,19 +260,4 @@ a.page-prev i {
 a.page-next i {
   /*match font-size*/
   height:18px;
-}
-
-#poll_question .content {
-  margin-top:0px;
-  margin-bottom:0px;
-}
-.content {
-  margin: 40px 0px;
-}
-.content p {
-  margin-bottom: 20px;
-  font-size: 16px;
-  /* font-weight: 200/300; */
-  font-weight: normal;
-  line-height: 25px
 }

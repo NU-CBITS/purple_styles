@@ -1,0 +1,27 @@
+/* blockquotes mood */
+blockquote.imperative-content.mood {
+  border-left: 5px solid #ae0060;
+}
+blockquote.imperative-content.play {
+  border-left: 5px solid #55a51a;
+}
+blockquote.polls {
+  border-left: 5px solid #55a51a;
+}
+blockquote.quotes {
+  border-left: 5px solid #55a51a;
+}
+blockquote.content.latest_poll {
+  border-left: 5px solid #55a51a;
+}
+blockquote.imperative-content.game {
+  border-left: 5px solid #55a51a;
+}
+blockquote.imperative-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  /* font-weight: 200/300; */
+  font-weight: normal;
+  /*font-style: italic;*/
+  line-height: 25px
+}
