@@ -1,11 +1,12 @@
 body {
-  /*background: url('../img/container-bg.jpg') repeat;*/
   background-color:#f5f5f5;
 }
 .select-multiple label {
   margin-bottom:0px;
 }
-
+strong.lead {
+  font-weight: bold
+}
 .text-left {
   text-align: left;
 }
