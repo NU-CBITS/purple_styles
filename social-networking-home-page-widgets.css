@@ -35,6 +35,7 @@
   width:auto;
 }
 /* orange */
+.stream .item .stream-icon.orange,
 .stream .item .orange,
 .widget-content.orange,
 .widget-tile.orange {
@@ -45,6 +46,7 @@
 }
 
 /* professional-gray-widget-tile (profglt) */
+.stream .item .stream-icon.profglt-lt,
 .stream .item .profglt-lt,
 .widget-content.profglt,
 .widget-tile.profglt {
@@ -55,6 +57,7 @@
 }
 
 /* professional-green-widget-tile (prof-green-lt) */
+.stream .item .stream-icon.prof-green-lt,
 .stream .item .prof-green-lt,
 .widget-content.prof-green-lt,
 .widget-tile.prof-green-lt {
@@ -65,6 +68,7 @@
 }
 
 /* progressive-green-widget-tile (prog-green-lt) */
+.stream .item .stream-icon.prog-green-lt,
 .stream .item .prog-green-lt,
 .widget-content.prog-green-lt,
 .widget-tile.prog-green-lt {
@@ -75,6 +79,7 @@
 }
 
 /* professional-blue-widget-tile (prof-blue-lt) */
+.stream .item .stream-icon.prof-blue-lt,
 .stream .item .prof-blue-lt,
 .widget-content.prof-blue-lt,
 .widget-tile.prof-blue-lt {
@@ -85,6 +90,7 @@
 }
 
 /* progessive-blue-widget-tile (prog-blue-lt) */
+.stream .item .stream-icon.prog-blue-lt,
 .stream .item .prog-blue-lt,
 .widget-content.prog-blue-lt,
 .widget-tile.prog-blue-lt {
@@ -95,6 +101,7 @@
 }
 
 /* professional-red-widget-tile (prof-red-lt) */
+.stream .item .stream-icon.prof-red-lt,
 .stream .item .prof-red-lt,
 .widget-content.prof-red-lt,
 .widget-tile.prof-red-lt {
@@ -105,6 +112,7 @@
 }
 
 /* progressive-red-widget-tile (prog-red-lt) */
+.stream .item .stream-icon.prog-red-lt,
 .stream .item .prog-red-lt,
 .widget-content.prog-red-lt,
 .widget-tile.prog-red-lt {
@@ -115,6 +123,7 @@
 }
 
 /* professional-purple-widget-tile (prof-purple-lt) */
+.stream .item .stream-icon.prof-purple-lt,
 .stream .item .prof-purple-lt,
 .widget-content.prof-purple-lt,
 .widget-tile.prof-purple-lt {
@@ -125,11 +134,13 @@
 }
 
 /* progressive-purple-widget-tile (prog-purple-lt) */
+.stream .item .stream-icon.prog-purple-lt,
 .stream .item .prog-purple-lt,
 .widget-content.prog-purple-lt,
 .widget-tile.prog-purple-lt {
   background-color: #520063;
 }
+
 .widget-header.prog-purple-lt h3 {
   color: #520063;
 }
