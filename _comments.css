@@ -8,3 +8,59 @@ blockquote.user-comment {
   border-left: 5px solid #dfc2e1;
 }
 
+.stream .item {
+  border-bottom: 1px solid #EEE;
+  padding: 10px 0px 30px 60px;
+}
+.stream .item .stream-icon {
+  display: inline-block;
+  background-color: #CCC;
+  border-radius: 4px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  margin-left: -40px;
+  margin-bottom: -40px;
+  position: relative;
+  top: 15px;
+  right: 20px;
+  float: left;
+}
+.stream .item .stream-icon i {
+  color:#FFF;
+  height: 40px;
+  line-height: 40px;
+  font-size:25px;
+}
+.stream .item h4 {
+  color: #f89406;
+  text-transform: capitalize;
+  /*color: #fa6801;*/
+  /*font-weight: 300;*/
+  font-weight: 400;
+  margin-bottom: 6px; }
+.stream .item p {
+  color: #777;
+}
+.stream .item p.date {
+  padding: 0;
+  float: right;
+  margin-top: 10px;
+}
+
+/* list-items */
+.list-item {
+  margin: 0 0 20px;
+  cursor: hand;
+  cursor: pointer;
+  padding: 5px 5px 5px 15px;
+  background-color: #C6E9E7;
+  color:#57585A;
+}
+
+.list-item p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
