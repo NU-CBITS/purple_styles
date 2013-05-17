@@ -3,8 +3,8 @@
  *
  * Designed and built with a goal of world peace.
  */
-@import "../../bootstrap/css/bootstrap-wo-icons.min.css";
-@import "../../bootstrap/css/bootstrap-responsive.min.css";
+@import "./bootstrap/css/bootstrap-wo-icons.min.css";
+@import "./bootstrap/css/bootstrap-responsive.min.css";
 @import "../../font_awesome/css/font-awesome.min.css";
 @import "_comments.css";
 @import "_content.css";
