@@ -1,3 +1,7 @@
+.accordion-header:hover {
+  cursor:pointer;
+}
+
 /* on learn page - look more like Google mail 'reply' */
 .widget-header h1 { 
   display: inline-block;
