@@ -1,3 +1,12 @@
+#current-guide-slide-container .widget-header.orange.navbar.accordion-header {
+  border:none;
+  border-bottom: 1px solid #D5D5D5;
+}
+
+#current-guide-slide-container .widget-header h3 {
+  left:0px;
+}
+
 #guides-container .widget-header {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
