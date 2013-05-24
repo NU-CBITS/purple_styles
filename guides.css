@@ -9,6 +9,11 @@
   padding:0px;
 }
 
+#guides-container .widget-content.guide-view, #guides-container .widget-content .guide-view  {
+  overflow-y:scroll;
+  padding:0px 15px 15px 15px; 
+}
+
 #guides-container ul#current-guide-navigation-buttons {
   margin: 0px;
   padding: 10px;
@@ -16,6 +21,7 @@
   background-color: #f5f5f5; 
   border-top: 1px solid #D5D5D5;
 }
+
 /* This is used so pager buttons have same links as pager links/anchor tags */
 .pager button {
   color: #0088cc;
