@@ -20,7 +20,7 @@
 
 #guides-container .widget-content.guide-view, #guides-container .widget-content .guide-view  {
   overflow-y:scroll;
-  padding:0px 15px 15px 15px; 
+  padding:15px; 
 }
 
 #guides-container ul#current-guide-navigation-buttons {
