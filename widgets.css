@@ -8,6 +8,10 @@
 }
 
 /* general widgets */
+.homepage-widget.widget:hover {
+  cursor:pointer;
+}
+
 .widget.homepage-widget .widget-content {
   position:relative;
 }
