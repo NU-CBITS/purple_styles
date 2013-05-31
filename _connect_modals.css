@@ -1,0 +1,22 @@
+/* connect-modal-header */
+.connect-modal-header {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 40px; 
+  line-height: 40px;
+  background:#FFFFFF;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9')";
+  border: 1px solid #D5D5D5;
+  -webkit-background-clip: padding-box;
+}
+.connect-modal-header h1 i {
+  color:inherit;
+  font-size: 38.5px;
+}
+.connect-modal-header h1 a {
+  margin-top:10px;
+  margin-right:13px;
+  font-weight: normal;
+}

@@ -42,69 +42,21 @@
   margin-bottom: 1em;
   overflow: hidden;
 }
-.widget-header.widget-header-default {
-  background: #E9E9E9;
-  background:-moz-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%);
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#E9E9E9));
-  background:-webkit-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
-  background:-o-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
-  background:-ms-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
-  background:linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
-}
+
 .widget-header {
+  padding-left: 15px;
+  padding-right: 15px;
   position: relative;
-  /* min-height - not height */
   min-height: 40px; 
   line-height: 40px;
   background:#FFFFFF;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9');
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9')";
   border: 1px solid #D5D5D5;
-  -webkit-background-clip: padding-box;
 }
 
 .widget-header .accordion-header:hover {
   cursor:pointer;
 }
-
-.widget-header.widget-header-h1 {
-  height:60px;
-}
-.widget-header.widget-header-h1 h1 {
-  /*display:inline-block;*/
-}
-.widget-header.widget-header-h1 i {
-  color:inherit;
-  font-size: 38.5px;
-}
-.widget-header.widget-header-h1 a {
-  margin-top:10px;
-  margin-right:13px;
-  font-weight: normal;
-}
-.widget-header h3 { 
-  position: relative;
-  top: 2px;
-  left: 10px;
-  display: inline-block;
-  margin-right: 3em;
-  /*font-size:1em;*/
-  font-size: 14px;
-  font-weight: 800;
-  color: #555;
-  line-height: 18px;
-  text-shadow: 1px 1px 2px rgba(255,255,255,.5);
-}
-.widget-header h1.archive-list.poll, .widget-header h1.archive-list.poll small {
-  color:#55a51a;
-}
-.widget-header h1.archive-list.quote, .widget-header h1.archive-list.quote small {
-  color:#55a51a;
-}
 .widget-header [class^="icon-"], .widget-header [class*=" icon-"] {
-  display: inline-block;
-  margin-left: 13px;
-  margin-right: -2px;
   font-size: 16px;
   color: #555;
   vertical-align: middle;

@@ -9,36 +9,45 @@ blockquote.user-comment {
 }
 
 .stream .item {
-  border-bottom: 1px solid #EEE;
+  border-bottom: 2px dotted #ddd;
   padding: 10px 0px 30px 60px;
 }
 .stream .item .stream-icon {
   display: inline-block;
-  background-color: #CCC;
-  border-radius: 4px;
-  height: 40px;
-  width: 40px;
+  font-size: 40px;
   text-align: center;
-  margin-left: -40px;
+  margin-left: -25px;
   margin-bottom: -40px;
   position: relative;
   top: 15px;
   right: 20px;
   float: left;
 }
+
+/*stream*/
+.stream-icon.dark-blue i {
+  color: #1171a3; 
+}
+
+.stream-icon.purple i {
+  color: #932ab6; 
+}
+
+.stream-icon.orange i {
+  color: #f88529; 
+}
+
 .stream .item .stream-icon i {
-  color:#FFF;
-  height: 40px;
   line-height: 40px;
   font-size:25px;
 }
 .stream .item h4 {
-  color: #f89406;
-  text-transform: capitalize;
-  /*color: #fa6801;*/
-  /*font-weight: 300;*/
-  font-weight: 400;
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
 .stream .item p {
   color: #777;
 }
