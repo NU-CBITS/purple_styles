@@ -33,6 +33,13 @@ body {
  color:#ffffff;
 }
 
+/*workaround for creating wider popovers per:
+  https://github.com/twitter/bootstrap/pull/2332
+*/
+.popover.double-wide {
+	width: 472px;
+}
+
 h1 {
   font-weight: 400;
 }
