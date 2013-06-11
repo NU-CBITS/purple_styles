@@ -180,9 +180,7 @@ h2 .h2-header {
   cursor: pointer;
   border-bottom: none;
 }
-.accordion-body {
-  display:none;
-}
+
 .caret-icons i {
   line-height:30px;
   font-size:20px;
@@ -253,12 +251,33 @@ a.page-next i {
 
 
 /*
- Added by Gabe 
+ ----------------- Added by Gabe -----------------------
+*/
+
+
+/*
+Used everywhere
+*/
+div#main {
+  margin-top:60px;
+}
+
+/*
  Used on thought tracker tool
 */
 .ui-dialog.thought-record-editor .ui-widget-header {
   background-image: none!important;
   background-color: #932ab6!important;
   border: 1px solid #932ab6!important;
+  color: white!important;
+}
+
+/*
+ Used on activity tracker tool
+*/
+.ui-dialog.activity-editor .ui-widget-header {
+  background-image: none!important;
+  background-color: #f88529!important;
+  border: 1px solid #f88529!important;
   color: white!important;
 }

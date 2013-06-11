@@ -61,6 +61,44 @@ button i.icon-ok {
 #filters.popover .arrow {
   left: 96%;
 }
+
+/*#viz-list-container {
+  position:relative;
+}
+#viz-list.popover {
+  display   : none;
+  width     : inherit;
+  position  : absolute;
+  margin-top: 0px;
+}
+#viz-list.popover .arrow {
+  left: 86%;
+}*/
+
+#viz-list {
+  background-color:#f88529;
+  color:white;
+}
+
+a#show-viz-list-container {
+  text-decoration: none!important;
+  color: white!important;
+}
+
+a#show-viz-list-container:hover {
+  text-decoration: none!important;
+  color: white!important;
+}
+
+a#show-viz-list-container b.caret{
+  border-top-color: white!important;  
+  margin-top: 18px;  
+}
+
+#viz-list li {
+  margin-left:10px;
+}
+
 #edit-event-form .slider-container {
   width:95%;
   display:inline-block;
