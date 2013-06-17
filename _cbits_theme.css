@@ -48,6 +48,9 @@
   background-color: #43c83c;
   border: 1px solid #43c83c;
 }
+.widget-header.green > div {
+  color:white;
+}
 .widget-content.green, h1.green   {
   color: #43c83c;
 }
@@ -57,6 +60,9 @@
   background-color: #f88529;
   border: 1px solid #f88529;
 }
+.widget-header.orange > div {
+  color:white;
+}
 .widget-content.orange, h1.orange  {
   color: #f88529;
 }
@@ -65,6 +71,9 @@
 .widget-header.purple  {
   background-color: #932ab6;
   border: 1px solid #932ab6;
+}
+.widget-header.purple > div {
+  color:white;
 }
 .widget-content.purple, h1.purple  {
   color: #932ab6;
