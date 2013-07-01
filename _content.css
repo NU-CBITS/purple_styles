@@ -18,3 +18,7 @@
   font-weight: normal;
   line-height: 25px
 }
+
+.content.content-condensed {
+  margin: 5px 0px; 
+}
