@@ -17,6 +17,10 @@ body {
 .navbar.navbar-inverse.navbar-fixed-top {
   min-height:41px!important;
 }
+.navbar-fixed-top,.navbar-fixed-bottom {
+  /*jquery modals were showing up underneath navbar, hence: */
+  z-index:999; 
+}
 .navbar.navbar-inverse.navbar-fixed-top .navbar-inner {
   min-height:40px!important;
 }
