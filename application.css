@@ -282,3 +282,42 @@ div#main {
   border: 1px solid #f88529!important;
   color: white!important;
 }
+
+/*
+ Used on home page for user widgets and buzzing
+*/
+
+/*.widget-header.activity-tracker {
+  .orange-background
+}
+
+.widget-content.activity-tracker {
+  .orange
+}*/
+
+.widget-header.user-widget.recently-visited {
+  background-color: #1171a3;
+  /*border: 1px solid #1171a3;*/
+}
+
+.widget-content.user-widget.recently-visited {
+  color: #1171a3;
+}
+
+.widget-header.user-widget.gone-away {
+  background-color: #f88529;
+  /*border: 1px solid #f88529;*/
+}
+
+.widget-content.user-widget.gone-away {
+  color: #f88529;
+}
+
+.widget-header.user-widget.long-gone {
+  background-color: #5e2121;
+  /*border: 1px solid #5e2121;*/
+}
+
+.widget-content.user-widget.long-gone {
+  color: #5e2121;
+}

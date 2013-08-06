@@ -55,6 +55,12 @@
   color: #43c83c;
 }
 
+.orange-background {
+  background-color: #f88529;
+  border: 1px solid #f88529;
+  color: white;
+}
+
 /*orange*/
 .widget-header.orange  {
   background-color: #f88529;
