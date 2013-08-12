@@ -321,3 +321,8 @@ div#main {
 .widget-content.user-widget.long-gone {
   color: #5e2121;
 }
+
+/**/
+#num-new-events {
+  line-height:1.75;
+}
