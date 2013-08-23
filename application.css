@@ -258,7 +258,19 @@ a.page-next i {
   height:18px;
 }
 
+/* buzz/bolt */
 
+a.buzz i.icon-bolt, a#buzz-user i.icon-bolt {
+  color:#d9d9d9;
+}
+
+a.buzz:hover, a#buzz-user:hover {
+  text-decoration: none;
+}
+
+a.buzz:hover i.icon-bolt, a#buzz-user:hover i.icon-bolt {
+  color:#ffff01;
+}
 
 /*
  ----------------- Added by Gabe -----------------------
