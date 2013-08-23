@@ -101,7 +101,7 @@
 
 .connect-modal-header h1 i {
   color:inherit;
-  font-size: 38.5px;
+  font-size: inherit;
 }
 .connect-modal-header h1 a {
   margin-top:10px;
