@@ -26,6 +26,14 @@
 @import "widgets.css";
 @import "_cbits_theme.css";
 
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.ui-widget,
+.ui-dialog-content,
+.ui-widget-content {
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important; 
+}
 
 .select-multiple label {
   margin-bottom:0px;
@@ -263,6 +271,18 @@ div#main {
   margin-top:60px;
 }
 
+button.buzz i{
+  color: black!important;
+}
+button.buzz:hover i{
+  color: white!important;
+}
+button.buzz:hover {
+  color: white!important;
+  background-color: #222222;
+  background-position: 0 -60px;
+}
+
 /*
  Used on thought tracker tool
 */
@@ -295,34 +315,63 @@ div#main {
   .orange
 }*/
 
-.widget-header.user-widget.recently-visited {
+.user-widget.widget-header.recently-visited {
   background-color: #1171a3;
   /*border: 1px solid #1171a3;*/
 }
 
-.widget-content.user-widget.recently-visited {
+.user-widget.widget-content.recently-visited {
   color: #1171a3;
 }
 
-.widget-header.user-widget.gone-away {
+.user-widget.widget-header.gone-away {
   background-color: #f88529;
   /*border: 1px solid #f88529;*/
 }
 
-.widget-content.user-widget.gone-away {
+.user-widget.widget-content.gone-away {
   color: #f88529;
 }
 
-.widget-header.user-widget.long-gone {
+.user-widget.widget-header.long-gone {
   background-color: #5e2121;
   /*border: 1px solid #5e2121;*/
 }
 
-.widget-content.user-widget.long-gone {
+.user-widget.widget-content.long-gone {
   color: #5e2121;
 }
 
 /**/
 #num-new-events {
   line-height:1.75;
+}
+
+
+/* lessons = light-blue */
+.lessons .widget-header {
+  background-color: #52b9e9;
+  border: 1px solid #52b9e9;
+}
+
+.lessons .widget-header > div {
+  color: white;
+}
+
+/* activities = orange */
+.activities .widget-header {
+    background-color: #f88529;
+    border: 1px solid #f88529;
+}
+.activities .widget-header > div {
+  color:white;
+}
+
+/* thoughts = purple */
+.thoughts .widget-header {
+  background-color: #932ab6;
+  border: 1px solid #932ab6;
+}
+.thoughts .widget-heade > div {
+  color:white;
 }
