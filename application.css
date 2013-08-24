@@ -109,6 +109,10 @@ hr.small {
   text-shadow: rgba(0, 0, 0, 0.247059) 0px -0.9090908765792847px 0px; 
 }
 
+.navbar-inverse .link:hover {
+  color:white;
+}
+
 button.thumbs-up {
   color:#3A87AD;
   margin-right:5px;
