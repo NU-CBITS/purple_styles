@@ -318,6 +318,18 @@ button.buzz:hover {
   background-position: 0 -60px;
 }
 
+.lessons .likes {
+  position:relative;
+  margin-top:5px;
+  margin-right:10px;
+  z-index:9;
+  color:white!important;
+}
+
+.lessons .likes .text-info {
+  color:white!important; 
+}
+
 /*
  Used on thought tracker tool
 */
