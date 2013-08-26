@@ -399,6 +399,13 @@ button.buzz:hover {
 }
 
 
+/* Roadmap */
+#roadmap .day.list-group-item:first-child {
+  /* this is here b/c currently it isn't within a panel the way bootstrap declares */
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
 /* lessons = light-blue */
 .lessons .widget-header {
   background-color: #52b9e9;
