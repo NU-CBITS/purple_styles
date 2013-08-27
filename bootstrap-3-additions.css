@@ -76,6 +76,25 @@ a.list-group-item:focus {
   line-height: 1.3;
 }
 
+
+/*.list-group-item.disabled - added by Wehrley */
+.list-group-item.disabled,
+.list-group-item.disabled:hover,
+.list-group-item.disabled:focus {
+  cursor: not-allowed;
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+  opacity: 0.65;
+}
+
+.list-group-item.disabled .list-group-item-text,
+.list-group-item.disabled:hover .list-group-item-text,
+.list-group-item.disabled:focus .list-group-item-text {
+  color: inherit;
+}
+
+
 .panel {
   margin-bottom: 20px;
   background-color: #ffffff;
