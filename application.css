@@ -298,6 +298,27 @@ a.buzz:hover i.icon-bolt, a#buzz-user:hover i.icon-bolt {
   color:#ffff01;
 }
 
+.icon-cbits-connect {
+  color:#43c83c;
+}
+
+.icon-cbits-think-feel {
+  color:#932ab6;
+}
+
+.icon-cbits-do {
+  color:#f88529;
+}
+.icon-cbits-learn {
+  color:#52b9e9;
+}
+.icon-cbits-mood {
+  color:#fa3031
+}
+.icon-cbits-people {
+  color:#1171a3;
+}
+
 /*
  ----------------- Added by Gabe -----------------------
 */
@@ -430,6 +451,68 @@ button.buzz:hover {
   background-color: #932ab6;
   border: 1px solid #932ab6;
 }
-.thoughts .widget-heade > div {
+.thoughts .widget-header > div {
   color:white;
+}
+
+/* panels */
+
+.panel-heading h1.panel-title,
+.panel-heading h2.panel-title,
+.panel-heading h3.panel-title,
+.panel-heading h4.panel-title,
+.panel-heading h5.panel-title,
+.panel-heading h6.panel-title {
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.panel-thoughts .panel-heading {
+  background-color: #932ab6;
+  border: 1px solid #932ab6;
+  color:#FFFFFF;
+}
+
+.panel-thoughts .panel-heading .nav a {
+  color:#FFFFFF;
+}
+
+
+.panel-thoughts .panel-heading .nav .dropdown-toggle .caret {
+  border-top-color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
+}
+
+.panel .panel-heading .nav {
+  display: inline-block;
+  margin-bottom:0px;
+  float:right;
+}
+
+.panel .panel-heading .nav > li > a:hover{
+  text-decoration:none;
+  background-color:transparent;
+}
+
+.panel .panel-heading .nav .dropdown-toggle:hover .caret{
+  border-top-color:inherit;
+  border-bottom-color:inherit;
+}
+
+/*ARG*/
+
+.panel .list-group .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.panel .list-group .list-group-item:last-child {
+  border-bottom: 0;
+}
+
+.panel .list-group .list-group-item {
+  border-width: 1px 0;
+}
+.panel .list-group {
+  margin-bottom: 0;
 }
