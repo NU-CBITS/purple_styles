@@ -26,6 +26,15 @@
 }
 
 /*dark-blue*/
+.dark-blue {
+  color: #1171a3;
+}
+
+.dark-blue-background {
+  background-color: #1171a3;
+  color: white;
+}
+
 .widget-header.dark-blue  {
   background-color: #1171a3;
   border: 1px solid #1171a3;
@@ -103,6 +112,7 @@
   color:inherit;
   font-size: inherit;
 }
+
 .connect-modal-header h1 a {
   margin-top:10px;
   margin-right:13px;
@@ -111,4 +121,8 @@
 
 .connect-modal > .widget-content {
   border-top: none;
+}
+
+ul#guides-list li {
+  list-style-type:none;
 }

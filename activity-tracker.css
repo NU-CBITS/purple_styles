@@ -110,3 +110,35 @@ a#show-viz-list-container b.caret{
 #edit-event-form .intensity-value {
   padding-right:15px;
 }
+
+
+.shared_activity .name {
+  font-size:24px;
+  font-weight:bold;
+}
+
+/*.shared_activity .start-time {
+  background-color: black;
+  color:white;
+}
+*/
+.shared_activity .summary {
+  margin-top: 20px;
+}
+
+.shared_activity .title {
+  font-size:20px;
+}
+
+.shared_activity .completion-status {
+  font-variant:small-caps;
+}
+
+.shared_activity .motivation {
+  font-style:italic;
+}
+
+.shared_activity .tags {
+  color: #52b9e9;
+}
+

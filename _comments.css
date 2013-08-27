@@ -25,15 +25,15 @@ blockquote.user-comment {
 }
 
 /*stream*/
-.stream-icon.dark-blue i {
+.dark-blue i {
   color: #1171a3; 
 }
 
-.stream-icon.purple i {
+.purple i {
   color: #932ab6; 
 }
 
-.stream-icon.orange i {
+.orange i {
   color: #f88529; 
 }
 
@@ -41,6 +41,7 @@ blockquote.user-comment {
   line-height: 40px;
   font-size:25px;
 }
+
 .stream .item h4 {
   margin-bottom: 6px;
   font-size: 21px;

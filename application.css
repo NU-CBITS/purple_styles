@@ -88,7 +88,16 @@ hr.small {
 }
 
 .link {
-  cursor: auto;
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navbar li >.link {
   text-decoration: none;
   background: none;
   border: none;
@@ -307,8 +316,8 @@ a.buzz:hover i.icon-bolt, a#buzz-user:hover i.icon-bolt {
 Used everywhere
 */
 div#main {
-  margin-top:60px;
-}
+  margin-top:100px;
+};
 
 button.buzz i{
   color: black!important;
@@ -353,6 +362,26 @@ button.buzz:hover {
   border: 1px solid #f88529!important;
   color: white!important;
 }
+
+/*
+  Used on Edit Profile Page
+*/
+#edit-profile .question {
+  margin-top: 40px;
+}
+
+#edit-profile .question .content {
+  font-size: 20px;
+}
+
+#edit-profile .responseGroup input {
+  width:80% ;
+}
+
+#edit-profile .responseGroup textarea {
+  width:80% ;
+}
+
 
 /*
  Used on home page for user widgets and buzzing
