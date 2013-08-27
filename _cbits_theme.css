@@ -125,4 +125,18 @@
 
 ul#guides-list li {
   list-style-type:none;
+  line-height: 25px;
+  width:100%;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-bottom: 1px dotted;
+
+}
+
+/* Allow resizing of Guide containers, at least in the vertical direction */
+#guides-list-container {
+  resize:vertical;
+}
+.guide-view {
+  resize:vertical; 
 }
