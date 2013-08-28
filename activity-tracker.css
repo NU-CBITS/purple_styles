@@ -122,6 +122,17 @@ a#show-viz-list-container b.caret{
   color:white;
 }
 */
+.activities .num-shared {
+  font-size: 1.15em;
+  padding:2px 6px!important;
+  border-radius: 6px!important;
+}
+
+.activities .name {
+  font-size: 1.35em;
+  font-weight: bold;
+}
+
 .shared_activity .summary {
   margin-top: 20px;
 }
@@ -142,3 +153,34 @@ a#show-viz-list-container b.caret{
   color: #52b9e9;
 }
 
+.shared_activity .text-value {
+  margin-bottom:-15px;
+  font-size:2.5em;
+}
+
+.shared_activity .value-label {
+  margin:0;
+  padding:0;
+  z-index:5;
+  font-size:1.5em;
+}
+
+.shared_activity canvas {
+  width: 100%;
+}
+
+.shared_activity .emotion {
+  font-size:1.5em;
+  text-align: center;
+  line-height:40px;
+}
+
+.user-collections.preview {
+  max-height:300px;
+  overflow: hidden;
+}
+
+.user-collections.show {
+  max-height:auto;
+  overflow: auto;
+}
