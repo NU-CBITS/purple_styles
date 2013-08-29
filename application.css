@@ -338,7 +338,7 @@ a.buzz:hover i.icon-bolt, a#buzz-user:hover i.icon-bolt {
 Used everywhere
 */
 div#main {
-  margin-top:80px;
+  margin-top:60px;
 };
 
 button.buzz i{
@@ -389,59 +389,15 @@ button.buzz:hover {
   Used on Edit Profile Page
 */
 #edit-profile .question {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 #edit-profile .question .content {
-  font-size: 20px;
+  font-size: 18px;
 }
 
-#edit-profile .responseGroup input {
-  width:80% ;
-}
-
-#edit-profile .responseGroup textarea {
-  width:80% ;
-}
-
-
-/*
- Used on home page for user widgets and buzzing
-*/
-
-/*.widget-header.activity-tracker {
-  .orange-background
-}
-
-.widget-content.activity-tracker {
-  .orange
-}*/
-
-.user-widget.widget-header.recently-visited {
-  background-color: #1171a3;
-  /*border: 1px solid #1171a3;*/
-}
-
-.user-widget.widget-content.recently-visited {
-  color: #1171a3;
-}
-
-.user-widget.widget-header.gone-away {
-  background-color: #f88529;
-  /*border: 1px solid #f88529;*/
-}
-
-.user-widget.widget-content.gone-away {
-  color: #f88529;
-}
-
-.user-widget.widget-header.long-gone {
-  background-color: #5e2121;
-  /*border: 1px solid #5e2121;*/
-}
-
-.user-widget.widget-content.long-gone {
-  color: #5e2121;
+#edit-profile .responseGroup input, #edit-profile .responseGroup textarea {
+  width:97% ;
 }
 
 /**/
@@ -545,4 +501,8 @@ button.buzz:hover {
 }
 .panel .list-group {
   margin-bottom: 0;
+}
+
+.add_comment {
+  padding:15px;
 }
