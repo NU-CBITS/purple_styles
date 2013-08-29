@@ -134,8 +134,18 @@ a#show-viz-list-container b.caret{
 }
 
 .shared_activity .summary {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
+
+.shared_activity .sentiment-comparison {
+  /*margin-top: 5%;*/
+}
+
+/*.shared_activity .delete {
+  padding:0 3px;
+  margin-top:-20px;
+  margin-right:-15px;
+}*/
 
 .shared_activity .title {
   font-size:20px;
@@ -154,14 +164,11 @@ a#show-viz-list-container b.caret{
 }
 
 .shared_activity .text-value {
-  margin-bottom:-15px;
-  font-size:2.5em;
+  font-size:1.5em;
+  font-weight: bold;
 }
 
 .shared_activity .value-label {
-  margin:0;
-  padding:0;
-  z-index:5;
   font-size:1.5em;
 }
 
