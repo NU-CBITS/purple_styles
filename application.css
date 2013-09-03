@@ -341,6 +341,10 @@ div#main {
   margin-top:80px;
 };
 
+.widget-tiles {
+  max-height:600px;
+}
+
 button.buzz i{
   color: black!important;
 }
