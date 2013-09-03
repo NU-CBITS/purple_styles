@@ -338,7 +338,7 @@ a.buzz:hover i.icon-bolt, a#buzz-user:hover i.icon-bolt {
 Used everywhere
 */
 div#main {
-  margin-top:80px;
+  margin-top:60px;
 };
 
 .widget-tiles {
@@ -490,6 +490,11 @@ button.buzz:hover {
 }
 
 /* panels */
+
+#widget-tiles .panel-heading {
+  padding-left:10px;
+  padding-right:10px;
+}
 
 .panel-heading h1.panel-title,
 .panel-heading h2.panel-title,
