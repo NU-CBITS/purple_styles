@@ -573,8 +573,8 @@ button.buzz:hover {
 
 /* Container of one roadmap week */
 .roadmap-week {
-  margin:5px 0px;
-  padding:0px 4px;
+/*  margin:5px 0px;
+  padding:0px 4px;*/
 }
 
 
@@ -594,59 +594,56 @@ button.buzz:hover {
 }
 
 /* div that contains "Learn Practice Interact" row */
-.roadmap-week .header{
-  text-align: center;
+.roadmap-week .header {
+  /*text-align: center;*/
 }
 
 /* container for the rows within a week */
 .roadmap-week .entries {
-  text-align: left;
+  /*text-align: left;*/
 }
 
 /* container of an individual row */
-.roadmap-item {
+/*.roadmap-item {
   margin:2px 0px;
   padding:0;
   border-bottom: 1px solid;
   font-weight: bold;
-}
-
+}*/
 
 /* container of the lesson and title together */
 .roadmap-item .learn {
-
-  padding: 2px 4px;
-  color: blue;
-
+  /*padding: 2px 4px;*/
+  /*color: blue;*/
+  color: #428bca;
 }
 
 /* container of the lesson's title text */
 .roadmap-item .learn .title {
-  margin-bottom:2px;
+  /*margin-bottom:2px;*/
 }
 
 /* container of the summary text */
 .roadmap-item .learn .summary {
-  margin-left: 4px;
+  /*margin-left: 4px;*/
   color: black;
-  font-weight: normal;
+  /*font-weight: normal;*/
   font-style: italic;
 }
 
 /* container of the tool to be used */
 .roadmap-item .tool {
-
- margin:0;
- padding: 2px 4px;
- color:orange;
- text-align: center;
-
+/* margin:0;
+ padding: 2px 4px;*/
+ /*color:orange;*/
+ color: #f0ad4e;
+ /*text-align: center;*/
 }
 
 /* container of the activity texts */
 .roadmap-item .activity {
-
-  margin:0;
-  color:green;
+  /*margin:0;*/
+  /*color:green;*/
+  color: #5cb85c;
 
 }
