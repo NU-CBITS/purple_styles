@@ -4,6 +4,7 @@
   color:white;
   font-weight: normal;
 }
+
 #current-guide-slide-container .widget-header.orange.navbar.accordion-header {
   border:none;
   border-bottom: 1px solid #D5D5D5;
@@ -13,6 +14,14 @@
   left:0px;
   font-weight: normal;
   color:white;
+}
+
+.panel #current-guide-title.panel-title {
+  margin-top: 0px;
+  margin-bottom:0px;
+  color:#333333;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 #guides-container {

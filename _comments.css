@@ -1,3 +1,9 @@
+.add_comment form {
+  margin-bottom: 0px;
+}
+.add_comment .panel-footer {
+  text-align: right;
+}
 p.user-comment {
   color:#520063;
 }
