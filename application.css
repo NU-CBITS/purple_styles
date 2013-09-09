@@ -27,6 +27,7 @@
 /*@import "social-networking-home-page-widgets.css";*/
 @import "widgets.css";
 @import "_cbits_theme.css";
+@import "jquery-theme-override.css";
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -686,4 +687,9 @@ button.buzz:hover {
   /*color:green;*/
   color: #5cb85c;
 
+}
+
+.panel .panel-footer .pager {
+  margin:0px;
+  padding:0px;
 }

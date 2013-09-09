@@ -1,0 +1,29 @@
+.ui-widget-header {
+	/*from bootstrap*/
+	border:none;
+	background: none;
+	background-color: #FFFFFF;
+	border-bottom-color: rgb(238, 238, 238);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: rgb(51, 51, 51);
+	display: block;
+	height: 30px;
+	line-height: 20px;
+	padding-bottom: 9px 15px;
+	/*width: 530px;*/
+}
+
+.ui-dialog-titlebar-close {
+	opacity: 0.4;
+}
+
+.ui-dialog-titlebar-close.ui-state-hover {
+	background: none;
+	border:none;
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
