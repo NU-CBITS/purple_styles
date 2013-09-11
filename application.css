@@ -374,26 +374,6 @@ button.buzz:hover {
 }
 
 /*
- Used on thought tracker tool
-*/
-.ui-dialog.thought-record-editor .ui-widget-header {
-  background-image: none!important;
-  background-color: #932ab6!important;
-  border: 1px solid #932ab6!important;
-  color: white!important;
-}
-
-/*
- Used on activity tracker tool
-*/
-.ui-dialog.activity-editor .ui-widget-header {
-  background-image: none!important;
-  background-color: #f88529!important;
-  border: 1px solid #f88529!important;
-  color: white!important;
-}
-
-/*
   Used on Edit Profile Page
 */
 #edit-profile .question {

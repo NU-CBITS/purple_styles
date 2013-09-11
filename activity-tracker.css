@@ -21,6 +21,12 @@ form.inline, div.inline {
 .form-horizontal .controls {
   margin-left: 80px;
 }
+.thought-record-editor .form-horizontal .control-label {
+  width: 100px;
+}
+.thought-record-editor .form-horizontal .controls {
+  margin-left: 110px;
+}
 .form-horizontal .emotion-tags .control-label{
   width: 100px;
 }
