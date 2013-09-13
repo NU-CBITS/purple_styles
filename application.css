@@ -476,7 +476,9 @@ button.buzz:hover {
 .thoughts .widget-header > div {
   color:white;
 }
-
+#thought-records-list-container .list-group .list-group .list-group-item {
+  min-height: 27px
+}
 /* panels */
 
 #widget-tiles .panel-heading {
