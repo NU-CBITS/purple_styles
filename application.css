@@ -27,6 +27,7 @@
 /*@import "social-networking-home-page-widgets.css";*/
 @import "widgets.css";
 @import "_cbits_theme.css";
+@import "jquery-theme-override.css";
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -375,26 +376,6 @@ button.buzz:hover {
 }
 
 /*
- Used on thought tracker tool
-*/
-.ui-dialog.thought-record-editor .ui-widget-header {
-  background-image: none!important;
-  background-color: #932ab6!important;
-  border: 1px solid #932ab6!important;
-  color: white!important;
-}
-
-/*
- Used on activity tracker tool
-*/
-.ui-dialog.activity-editor .ui-widget-header {
-  background-image: none!important;
-  background-color: #f88529!important;
-  border: 1px solid #f88529!important;
-  color: white!important;
-}
-
-/*
   Used on Edit Profile Page
 */
 #edit-profile .question {
@@ -497,7 +478,9 @@ button.buzz:hover {
 .thoughts .widget-header > div {
   color:white;
 }
-
+#thought-records-list-container .list-group .list-group .list-group-item {
+  min-height: 27px
+}
 /* panels */
 
 #widget-tiles .panel-heading {
@@ -688,4 +671,9 @@ button.buzz:hover {
   /*color:green;*/
   color: #5cb85c;
 
+}
+
+.panel .panel-footer .pager {
+  margin:0px;
+  padding:0px;
 }

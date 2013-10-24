@@ -16,7 +16,7 @@
   color:white;
 }
 
-.panel #current-guide-title.panel-title {
+.panel.panel-default #current-guide-title.panel-title {
   margin-top: 0px;
   margin-bottom:0px;
   color:#333333;
